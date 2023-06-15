@@ -20,6 +20,17 @@ $(function() {
 		}
 	});
 
+$('.home-banner-area').owlCarousel({
+		items: 1,
+		loop: true,
+		autoplay: true,
+		margin: 30,
+		nav: true,
+		dots: false,
+
+	});
+
+	
 	if ($('select')) {
 		$('select').niceSelect();
 	}
