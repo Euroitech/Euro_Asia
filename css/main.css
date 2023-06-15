@@ -872,12 +872,12 @@ th {
   
   background-size: cover;
   background-position: center center;
-  max-height: 1200px; }
+  max-height: 900px; }
   @media (min-width: 1921px) {
     .home-banner-area .fullscreen {
       align-items: start !important;
-      padding-top: 250px;
-      max-height: 1200px !important; } }
+      padding-top: 150px;
+      max-height: 100px !important; } }
   @media (max-width: 768px) {
     .home-banner-area .fullscreen {
       height: 700px !important; } }
@@ -894,7 +894,7 @@ th {
   left: 0;
 }
 
-.slider-navigation {
+/*slider-navigation {
   z-index: 888;
   position: relative;
   display: flex;
@@ -920,7 +920,7 @@ th {
 
 .slider-navigation .nav-btn:hover{
   transform: scale(2);
-}
+}*/
 
 .img-slider{
   position: absolute;
@@ -1023,30 +1023,31 @@ th {
 .about-right p:last-of-type {
   margin-bottom: 0; }
 
-.feature-area {
-  margin-top: -210px; }
-  @media (max-width: 1680px) and (min-width: 1200px) {
-    .feature-area {
-      margin-top: -110px; } }
-  @media (max-width: 1200px) and (min-width: 991px) {
-    .feature-area {
-      display: none; } }
-  @media (max-width: 991px) {
-    .feature-area {
-      margin-top: 0px; } }
-  .feature-area .container-fluid {
-    padding-left: 50px; }
-    @media (min-width: 1921px) {
-      .feature-area .container-fluid {
-        max-width: 1140px;
-        padding-left: 0; }
-        .feature-area .container-fluid .col-lg-2.col-md-6 {
-          -ms-flex: 0 0 16.666667%;
-          flex: 0 0 22.666667%;
-          max-width: 22.666667%; } }
-    @media (max-width: 767px) {
-      .feature-area .container-fluid {
-        padding-left: 15px; } }
+  .feature-area {
+    margin-top: -260px; }
+    @media (max-width: 1680px) and (min-width: 1200px) {
+      .feature-area {
+        margin-top: -110px; } }
+    @media (max-width: 1200px) and (min-width: 991px) {
+      .feature-area {
+        display: none; } }
+    @media (max-width: 50px) {
+      .feature-area {
+        margin-top: 0px; } }
+    .feature-area .container-fluid {
+      padding-left: 50px; }
+      @media (min-width: 1921px) {
+        .feature-area .container-fluid {
+          max-width: 1140px;
+          padding-left: 0; }
+          .feature-area .container-fluid .col-lg-2.col-md-6 {
+            -ms-flex: 0 0 16.666667%;
+            flex: 0 0 22.666667%;
+            max-width: 22.666667%; } }
+      @media (max-width: 767px) {
+        .feature-area .container-fluid {
+          padding-left: 15px; } }
+  
 
 .feature-item {
   margin: 30px 0px;
