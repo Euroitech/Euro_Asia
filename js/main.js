@@ -20,7 +20,11 @@ $(function() {
 		}
 	});
 
-$('.home-banner-area').owlCarousel({
+	if ($('select')) {
+		$('select').niceSelect();
+	}
+
+	$('.home-banner-area').owlCarousel({
 		items: 1,
 		loop: true,
 		autoplay: true,
@@ -29,11 +33,6 @@ $('.home-banner-area').owlCarousel({
 		dots: false,
 
 	});
-
-	
-	if ($('select')) {
-		$('select').niceSelect();
-	}
 
 	$('.img-pop-up').magnificPopup({
 		type: 'image',
