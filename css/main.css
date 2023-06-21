@@ -1049,7 +1049,7 @@ th {
           padding-left: 15px; } }
   
 
-/*.feature-item {
+.feature-item {
   margin: 30px 0px;
   border-right: 1px solid rgba(0, 19, 102, 0.2);
   padding-right: 20px; }
@@ -1064,7 +1064,7 @@ th {
     color: rgb(0, 0, 0);
     font-size: 17px;
    
-  }*/
+  }
 
 /* Start Popular Courses Area
 =========================================================================================== */
